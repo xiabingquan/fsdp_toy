@@ -9,7 +9,7 @@ import torch.multiprocessing as mp
 import torch.nn as nn
 
 from distributed_optimizer import DistributedOptimizer
-from fsdp_wrapper import apply_fsdp
+from fsdp import apply_fsdp
 from model import ToyModel
 
 

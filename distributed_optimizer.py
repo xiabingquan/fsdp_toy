@@ -2,7 +2,7 @@ from typing import List, Tuple
 
 import torch
 
-from fsdp_wrapper import FSDPUnit
+from fsdp import FSDPUnit
 
 
 class DistributedOptimizer:
